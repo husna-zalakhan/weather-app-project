@@ -1,0 +1,87 @@
+body {
+  background: #f9f7fe;
+}
+h1 {
+  font-family: roboto, sans-serif;
+  font-weight: 800;
+  font-size: 38px;
+  margin: 0;
+}
+footer {
+  font-family: arial;
+  color: #a9a6b3;
+  margin: 70px 0;
+  text-align: center;
+  padding-top: 5px;
+  border-top: 1px solid #f9f7fe;
+}
+header {
+  border-bottom: 10x solid #f9f7fe;
+  padding-bottom: 30px;
+}
+a {
+  color: #885df1;
+}
+
+.cover {
+  margin: 20px auto;
+  max-width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgb(65, 50, 100, 0.08);
+}
+.buttom {
+  color: white;
+  background: #885df1;
+  border-radius: 5px;
+  padding: 15px 20px;
+  border: none;
+  line-height: 1;
+  font-size: 16px;
+  margin-left: 5px;
+}
+.city {
+  font-family: arial;
+  background: #f9f7fe;
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  width: 75%;
+  color: rgba(39, 33, 66, 0.4);
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+.tempreture-emoji {
+  position: relative;
+  top: -5px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+.tempreture-value {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: arial;
+}
+.tempreture-unit {
+  font-size: 28px;
+  position: relative;
+  top: -38px;
+  right: 20px;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.current-weather p {
+  font-family: arial;
+  color: #a9a6b3;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 500;
+}
+.current-weather strong {
+  color: #f65282;
+}
